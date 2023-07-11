@@ -139,6 +139,14 @@ namespace MetroFramework
             }
         }
 
+        public static Color CardTemp
+        {
+            get
+            {
+                return Color.FromArgb(31, 83, 219);
+            }
+        }
+
         static Color _custom = Color.FromArgb(225, 195, 143);
 
         public static Color Custom

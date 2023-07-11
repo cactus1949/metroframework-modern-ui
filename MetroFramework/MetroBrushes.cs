@@ -152,6 +152,14 @@ namespace MetroFramework
             }
         }
 
+        public static SolidBrush CardTemp
+        {
+            get
+            {
+                return GetSaveBrush("CardTemp", MetroColors.CardTemp);
+            }
+        }
+
         public static SolidBrush Custom
         {
             get

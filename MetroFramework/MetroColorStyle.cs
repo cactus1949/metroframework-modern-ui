@@ -40,6 +40,7 @@ namespace MetroFramework
         Purple,
         Red,
         Yellow,
-        Custom
+        Custom,
+        CardTemp
     }
 }

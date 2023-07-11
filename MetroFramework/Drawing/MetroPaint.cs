@@ -749,6 +749,9 @@ namespace MetroFramework.Drawing
 
                 case MetroColorStyle.Yellow:
                     return MetroColors.Yellow;
+                    
+                case MetroColorStyle.CardTemp:
+                    return MetroColors.CardTemp;
 
                 default:
                     return MetroColors.Blue;
@@ -800,6 +803,9 @@ namespace MetroFramework.Drawing
 
                 case MetroColorStyle.Yellow:
                     return MetroBrushes.Yellow;
+                    
+                case MetroColorStyle.CardTemp:
+                    return MetroBrushes.CardTemp;
 
                 default:
                     return MetroBrushes.Blue;
@@ -851,6 +857,9 @@ namespace MetroFramework.Drawing
 
                 case MetroColorStyle.Yellow:
                     return MetroPens.Yellow;
+                    
+                case MetroColorStyle.CardTemp:
+                    return MetroPens.CardTemp;
 
                 default:
                     return MetroPens.Blue;
