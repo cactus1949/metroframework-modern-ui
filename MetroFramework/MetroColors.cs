@@ -146,6 +146,14 @@ namespace MetroFramework
                 return Color.FromArgb(31, 83, 219);
             }
         }
+        
+        public static Color GreenTemp
+        {
+            get
+            {
+                return Color.FromArgb(0, 181, 1);
+            }
+        }
 
         static Color _custom = Color.FromArgb(225, 195, 143);
 

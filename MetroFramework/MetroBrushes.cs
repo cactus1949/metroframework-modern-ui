@@ -160,6 +160,14 @@ namespace MetroFramework
             }
         }
 
+        public static SolidBrush GreenTemp
+        {
+            get
+            {
+                return GetSaveBrush("GreenTemp", MetroColors.GreenTemp);
+            }
+        }
+
         public static SolidBrush Custom
         {
             get

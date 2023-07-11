@@ -753,6 +753,9 @@ namespace MetroFramework.Drawing
                 case MetroColorStyle.CardTemp:
                     return MetroColors.CardTemp;
 
+                case MetroColorStyle.GreenTemp:
+                    return MetroColors.GreenTemp;
+
                 default:
                     return MetroColors.Blue;
             }
@@ -807,6 +810,9 @@ namespace MetroFramework.Drawing
                 case MetroColorStyle.CardTemp:
                     return MetroBrushes.CardTemp;
 
+                case MetroColorStyle.GreenTemp:
+                    return MetroBrushes.GreenTemp;
+
                 default:
                     return MetroBrushes.Blue;
             }
@@ -860,6 +866,9 @@ namespace MetroFramework.Drawing
                     
                 case MetroColorStyle.CardTemp:
                     return MetroPens.CardTemp;
+
+                case MetroColorStyle.GreenTemp:
+                    return MetroPens.GreenTemp;
 
                 default:
                     return MetroPens.Blue;

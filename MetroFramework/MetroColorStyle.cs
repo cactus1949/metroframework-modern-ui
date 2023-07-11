@@ -41,6 +41,7 @@ namespace MetroFramework
         Red,
         Yellow,
         Custom,
-        CardTemp
+        CardTemp,
+        GreenTemp
     }
 }
